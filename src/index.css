@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brasil-green: #009b3a;
+  --color-brasil-yellow: #fedf00;
+  --color-brasil-blue: #002776;
+}
+
+body {
+  background-color: var(--color-gray-50);
+  color: var(--color-gray-900);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
